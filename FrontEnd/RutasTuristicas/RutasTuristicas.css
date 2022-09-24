@@ -8,11 +8,16 @@
 
 body {
   font-family: 'Montserrat', sans-serif;
+  width: 100%;
 }
 
 .all {
-  height: 100vh;
-  width: 100vh;
+  height: 100%;
+  width: 100%;
+}
+
+.brand a {
+  text-decoration: none;
 }
 
 .navbar {
@@ -40,8 +45,7 @@ body {
 }
 .menu {
   display: flex;
-  width: 50%;
-  justify-content: space-around;
+  float: right;
 }
 .menu  li {
   list-style: none;
@@ -92,9 +96,16 @@ body {
   margin: 1em;
 }
 
+
+
 .project-details-button a {
-  text-decoration: none;
+  border: none;
+  outline: none;
+  height: 20px;
+  background: #fff;
+  border-radius: 5px;
   color: #191c32;
+  font-size: 12;
 }
 
 .destinos,
