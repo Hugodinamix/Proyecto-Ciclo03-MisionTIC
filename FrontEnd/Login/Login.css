@@ -76,7 +76,8 @@ body {
 
 .login-box a {
   text-decoration: none;
-  font-size: 12px;
+  font-style: bold;
+  font-size: 15px;
   line-height: 20px;
   color: rgb(17, 17, 17);
 }
